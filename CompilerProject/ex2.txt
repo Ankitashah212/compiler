@@ -1,0 +1,20 @@
+PROGRAM ifcheck
+
+VAR x AS INT ;
+VAR y AS BOOL ;
+
+BEGIN
+
+	x := 0 ;
+	
+	IF x LT 10 THEN
+		x := x PLUS 1 ;
+	END
+	
+	IF x EQ 10 THEN
+		y := TRUE ;
+		
+	END
+	
+END
+	
